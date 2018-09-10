@@ -14,5 +14,5 @@ This file file serves as your book's preface, a great place to describe your boo
 
   这个值也可以被设置为空字符串 \(`''`\) 或是相对路径 \(`'./'`\)，这样所有的资源都会被链接为相对路径，这样打出来的包可以被部署在任意路径，也可以用在类似 Cordova hybrid 应用的文件系统中。
 
-
+![](/assets/import.png)
 
