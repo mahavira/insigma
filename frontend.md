@@ -4,7 +4,7 @@
 * 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
 * UI组件库：element-ui
 * 样式预编器: Stylus
-* 代码规范: ESLint/Prettier风格
+* 代码规范: ESLint/Airbnb风格
 
 ## 开发\(生产\)环境搭建
 
