@@ -77,7 +77,7 @@
 
 ## 代码规范及约束
 
-> 遵守 Prettier 规范
+> 遵守 Airbnb 规范
 >
 > [https://github.com/prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
 
