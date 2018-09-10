@@ -1,3 +1,11 @@
+## 技术栈
+
+* 开发环境：node
+* 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
+* UI组件库：element-ui
+* 样式预编器: Stylus
+* 代码规范: ESLint/Prettier风格
+
 ## 开发\(生产\)环境搭建
 
 * 模块化开发
@@ -49,19 +57,11 @@
 >
 > [https://github.com/prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
 
-## 技术栈
 
-* 开发环境：node
-* 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
-* UI组件库：element-ui
-* 样式预编器: Stylus
-* 代码规范: ESLint/Prettier风格
 
 ## 编写开发文档
 
 ##### 通用类库
-
-
 
 
 
