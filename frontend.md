@@ -77,9 +77,11 @@
 
 ## 代码规范及约束
 
-> 遵守 Airbnb 规范
+> 开发环境使用[ESLint](https://eslint.org/)来约束代码规范
 >
-> https://github.com/airbnb/javascript
+> 当代码出现写法不规范时，控制台提示
+
+> 遵守 [Airbnb](https://github.com/airbnb/javascript) 规范
 
 ## 编写开发文档
 
