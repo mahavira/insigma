@@ -2,7 +2,7 @@
 
 * 开发环境：node
 * 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
-* UI组件库：element-ui
+* UI组件库：iview
 * 样式预编器: Stylus
 * 代码规范: ESLint/Airbnb风格
 
