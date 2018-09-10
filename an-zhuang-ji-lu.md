@@ -42,6 +42,8 @@
 
 
 ### 参考：
+> vue-devtools
+https://github.com/vuejs/vue-devtools
 
 https://cn.vuejs.org/v2/style-guide/
 
