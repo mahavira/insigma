@@ -48,7 +48,7 @@
 
 ## 组件库
 
-> 除使用了开源的第三方UI组件库以外，还封闭了常用的自定义组件  
+> 除使用了开源的第三方UI组件库以外，还封闭了常用的自定义组件。  
 > 可组合各组件快速构建应用
 
 ##### 基础组件
@@ -79,10 +79,8 @@
 
 > 开发环境使用 [ESLint](https://eslint.org/) 来约束代码规范，当代码出现写法不规范时，控制台实时提示~  
 > 遵守 [Airbnb](https://github.com/airbnb/javascript) 规范
-
-
-
-> 除了js代码外，还需关心vue组件代码规范：
+>
+> 除了js代码外，还需关心vue组件代码规范：  
 > [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
 
 ## 编写开发文档
