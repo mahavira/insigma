@@ -83,7 +83,6 @@
 
 
 > 除了js代码外，还需关心vue组件代码规范：
->
 > [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
 
 ## 编写开发文档
