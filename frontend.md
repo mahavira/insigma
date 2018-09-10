@@ -1,10 +1,10 @@
 ## 技术栈
 
-* 开发环境：node
-* 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
-* UI组件库：iview
-* 样式预编器: Stylus
-* 代码规范: ESLint/Airbnb风格
+* 开发环境：[node](https://nodejs.org/zh-cn/)
+* 开发框架：[vue](https://cn.vuejs.org/) + \(vuex/vue-router/axios/rxjs\)
+* UI组件库：[iview](https://www.iviewui.com/)
+* 样式预编器: [Stylus](https://stylus.bootcss.com/)
+* 代码规范: ESLint/[Airbnb](https://github.com/airbnb/javascript)风格
 
 ## 开发\(生产\)环境搭建
 
