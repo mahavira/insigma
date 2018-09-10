@@ -1,4 +1,4 @@
-技术栈
+## 技术栈
 
 * 开发环境：node
 * 开发框架：vue + \(vuex/vue-router/axios/rxjs\)
