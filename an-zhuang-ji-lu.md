@@ -1,65 +1,58 @@
-## 开发环境搭建
-
-- 模块化开发
-- 本地预览\实时预览（热更新）
-- CSS预编译
-- ES6/ES7 编程风格
-- 代码规范及错误检查（ESLint）
-- API 请求代理
-
-## 生产环境搭建
-
-- 代码压缩
-- 浏览器前缀（autoprefixer）
-- 按需加载（代码拆分）
+## vue安装过程
+```
+- vue create
+- babel/router/vuex/css pre-processors/linter/formatter
+- stylus
+- eslint + prettier
+- lint on save
+```
 
 
-## 系统基础布局
+## vscode插件
 
-#### `<Header>`通栏：
-
-- [x] 当前用户 （用户头像/退出/设置）
-- [x] 切换子系统
-- [x] 站内消息
-
-#### `<Nav>`导航栏：
-显示后台返回的用户可见菜单
-
-#### `<Main>`业务模块栏
+- [x] ESLint
+- [x] Prettier
+- [x] Vetur
+- [x] language-stylus
+- [x] Stylus Supremacy
 
 
-## 通用库
+> 使用Iview时候 报：https://google.com/#q=vue%2Fno-parsing-error Parsing error: x-invalid-end-tag 解决办法:
 
-- 页面消息提示
-- 日志处理
-- 权限控制管理
-- 用户信息管理
-- 页面管理（跳转到页/切换页面/销毁页面/）
-- 数据共享管理
-- 本地数据读写管理
+```
+// 添加rules配置
+"vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]
+```
 
-## 组件库
+> stylus 编辑器配置
 
-> 除使用了开源的第三方UI组件库以外，还封闭了常用的自定义组件
-> 可组合各组件快速构建应用
+```
+{
 
-
-## 代码规范及约束
-
-> 遵守 Prettier 规范
->
-> https://github.com/prettier/eslint-config-prettier
-
-## 技术栈
-
-- 开发环境：node
-- 开发框架：vue + (vuex/vue-router/axios/rxjs)
-- UI组件库：iview
-- 样式预编器: Stylus
-- 代码规范: ESLint/Prettier风格
+// 以下为stylus配置
+"stylusSupremacy.insertColons": false, // 是否插入冒号
+"stylusSupremacy.insertSemicolons": false, // 是否插入分好
+"stylusSupremacy.insertBraces": false, // 是否插入大括号
+"stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+"stylusSupremacy.insertNewLineAroundBlocks": false // 两个选择器中是否换行
+}
+```
 
 
-## 开发文档
+### 参考：
 
+https://cn.vuejs.org/v2/style-guide/
 
+https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md
 
+https://github.com/ouvens/es6-code-style-guide
+
+http://www.css88.com/archives/8345#functions
+
+https://github.com/airbnb/javascript
+
+https://github.com/lin-123/javascript
+
+https://github.com/prettier/eslint-config-prettier
+
+https://juejin.im/post/5b911f306fb9a05cdb1013b9?utm_source=gold_browser_extension
