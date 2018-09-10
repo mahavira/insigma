@@ -87,7 +87,7 @@
 > 除了js代码外，还需关心vue组件代码规范（本部分不在ESLint中）  
 > [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
 
-## 编写开发文档
+## 开发文档
 
 * 开发环境安装指南
 * 脚本架结构
