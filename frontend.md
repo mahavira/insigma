@@ -1,30 +1,30 @@
 ## 技术栈
 
-* 开发环境：[node](https://nodejs.org/zh-cn/)
-* 开发框架：[vue](https://cn.vuejs.org/) + \(vuex/vue-router/axios/rxjs\)
-* UI组件库：[iview](https://www.iviewui.com/)
-* 样式预编器: [Stylus](https://stylus.bootcss.com/)
-* 代码规范: ESLint/[Airbnb](https://github.com/airbnb/javascript)风格
+- 开发环境：[node](https://nodejs.org/zh-cn/)
+- 开发框架：[vue](https://cn.vuejs.org/) + \(vuex/vue-router/axios/rxjs\)
+- UI 组件库：[iview](https://www.iviewui.com/)
+- 样式预编器: [Stylus](https://stylus.bootcss.com/)
+- 代码规范: ESLint/[Airbnb](https://github.com/airbnb/javascript)风格
 
 ## 开发\(生产\)环境搭建
 
-* 模块化开发
-* 本地预览\实时预览（热更新）
-* CSS预编译
-* ES6/ES7 编程风格
-* 代码规范及错误检查（ESLint）
-* API 请求代理
-* 代码压缩
-* 浏览器前缀（autoprefixer）
-* 按需加载（代码拆分）
+- 模块化开发
+- 本地预览\实时预览（热更新）
+- CSS 预编译
+- ES6/ES7 编程风格
+- 代码规范及错误检查（ESLint）
+- API 请求代理
+- 代码压缩
+- 浏览器前缀（autoprefixer）
+- 按需加载（代码拆分）
 
 ## 系统基础布局
 
 #### `<Header>`通栏：
 
-* [x] 当前用户 （用户头像/退出/设置）
-* [x] 切换子系统
-* [x] 站内消息
+- [x] 当前用户 （用户头像/退出/设置）
+- [x] 切换子系统
+- [x] 站内消息
 
 #### `<Nav>`导航栏：
 
@@ -38,19 +38,19 @@
 
 ## 通用库
 
-* 异常警告提示
-* 消息通知提示
-* 日志处理
-* 权限控制管理
-* 用户信息管理
-* 页面管理
-* 数据共享管理 
-* 本地数据同步管理
-* 接口数据请求（与后台通信）
+- 异常警告提示
+- 消息通知提示
+- 日志处理
+- 权限控制管理
+- 用户信息管理
+- 页面管理
+- 数据共享管理
+- 本地数据同步管理
+- 接口数据请求（与后台通信）
 
 ## 组件库
 
-> 除使用了开源的第三方UI组件库以外，还封闭了常用的自定义组件。  
+> 除使用了开源的第三方 UI 组件库以外，还封闭了常用的自定义组件。  
 > 可组合各组件快速构建应用
 
 ##### 基础组件
@@ -82,19 +82,16 @@
 > 开发环境使用 [ESLint](https://eslint.org/) 来约束代码规范，当代码出现写法不规范时，控制台实时提示~  
 > 遵守 [Airbnb](https://github.com/airbnb/javascript) 规范
 >
-> 除了js代码外，还需关心vue组件代码规范（本部分不在ESLint中）  
+> 除了 js 代码外，还需关心 vue 组件代码规范（本部分不在 ESLint 中）  
 > [https://cn.vuejs.org/v2/style-guide/](https://cn.vuejs.org/v2/style-guide/)
 
 ## 开发文档
 
-* 开发环境安装指南
-* 脚本架结构
-* 通用库使用方法（api）
-* 安装中出现的常见问题
-* 如何开发业务页面
-* 如何开发自定义组件
-* 组件与组件间通讯的几种方法
-* 如何与后端通讯
-
-
-
+- 开发环境安装指南
+- 脚本架结构
+- 通用库使用方法（api）
+- 安装中出现的常见问题
+- 如何开发业务页面
+- 如何开发自定义组件
+- 组件与组件间通讯的几种方法
+- 如何与后端通讯

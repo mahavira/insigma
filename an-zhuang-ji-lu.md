@@ -24,28 +24,41 @@
 "vue/no-parsing-error": [2, { "x-invalid-end-tag": false }]
 ```
 
-> stylus 编辑器配置
+> vscode 编辑器配置
 
 ```
 {
-
-// 以下为stylus配置
-"stylusSupremacy.insertColons": false, // 是否插入冒号
-"stylusSupremacy.insertSemicolons": false, // 是否插入分好
-"stylusSupremacy.insertBraces": false, // 是否插入大括号
-"stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
-"stylusSupremacy.insertNewLineAroundBlocks": false // 两个选择器中是否换行
+    // 以下为stylus配置
+    "stylusSupremacy.insertColons": false, // 是否插入冒号
+    "stylusSupremacy.insertSemicolons": false, // 是否插入分好
+    "stylusSupremacy.insertBraces": false, // 是否插入大括号
+    "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+    "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ],
+    // 单引号 替换 双引号 "prettier.singleQuote": true,
+    // 属性后添加逗号等 "prettier.trailingComma": "all"
+    // 其它设置 [地址](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all"
 }
 ```
 
 如需要在开发环境中MOCK数据，可使用[axios-mock-adpter](https://github.com/ctimmerm/axios-mock-adapter)插件
 
+## 权限
+自定义指令控制权限
 
 ### 参考：
 > vue-devtools
 https://github.com/vuejs/vue-devtools
 
 https://cn.vuejs.org/v2/style-guide/
+http://stylus-lang.com/
 
 https://github.com/pablohpsilva/vuejs-component-style-guide/blob/master/README-CN.md
 
