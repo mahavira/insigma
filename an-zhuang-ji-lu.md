@@ -38,6 +38,8 @@
 }
 ```
 
+如需要在开发环境中MOCK数据，可使用[axios-mock-adpter](https://github.com/ctimmerm/axios-mock-adapter)插件
+
 
 ### 参考：
 
