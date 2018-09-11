@@ -73,3 +73,5 @@ https://github.com/lin-123/javascript
 https://github.com/prettier/eslint-config-prettier
 
 https://juejin.im/post/5b911f306fb9a05cdb1013b9?utm_source=gold_browser_extension
+
+https://eslint.org/docs/rules/
