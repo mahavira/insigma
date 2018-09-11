@@ -1,12 +1,12 @@
 ## 技术栈
 
 - 开发环境：[node](https://nodejs.org/zh-cn/)
-- 开发框架：[vue](https://cn.vuejs.org/) + \(vuex/vue-router/axios/rxjs\)
+- 开发框架：[vue](https://cn.vuejs.org/) + (vuex/vue-router/axios/rxjs)
 - UI 组件库：[iview](https://www.iviewui.com/)
 - 样式预编器: [Stylus](https://stylus.bootcss.com/)
 - 代码规范: ESLint/[Airbnb](https://github.com/airbnb/javascript)风格
 
-## 开发\(生产\)环境搭建
+## 开发(生产)环境搭建
 
 - 模块化开发
 - 本地预览\实时预览（热更新）
@@ -34,7 +34,7 @@
 
 > 业务层需要关心的区域
 
-![](/assets/1.png)
+![布局图](/assets/1.png)
 
 ## 通用库
 
